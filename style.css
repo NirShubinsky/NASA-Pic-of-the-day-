@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofia&display=swap");
 html {
   box-sizing: border-box;
 }
@@ -113,6 +114,17 @@ body {
 .hidden{
   display: none;
 }
+
+ /* Credits */
+.credits {
+  position: fixed;
+  left: 10px;
+  top: 10px;
+  font-weight: 600;
+  font-family: sofia, cursive;
+  font-size: 1.2em;
+}
+
 
 /* Large Smartphone (Vertical) */
 @media screen and (max-width: 800px) {
